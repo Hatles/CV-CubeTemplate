@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url('font/CaviarDreams.ttf') format('truetype');
+}
+
+body
+{
+    font-family: "CaviarDreams";
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.name
+{
+    padding: 5%;
+    text-align: left;
+    font-size: 3vw;
+    background-color: #00BAFF;
+    height: 100%; 
+}
+
+.name h1
+{
+    font-size: 4vw;
+}
+
+@media (min-width: 1200px) 
+{
+    .name
+    {
+        font-size: 1.8vw;
+    }
+
+    .name h1
+    {
+        font-size: 2.5vw;
+    }
+}
+
+.title
+{
+  font-size: 5.6vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title::before
+{
+  content: "";
+  width: 0;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
